@@ -1,1 +1,3 @@
-# Property-Status-Change-Analysis
+# Property Status Change Analysis
+<h2>Description</h2>
+This SQL query identifies and tracks changes in property listing statuses within a specified date range. The query ranks the status changes of property listings to detect any transitions to 'WITHDRAWN' status. It filters the listings to include only those with significant available space (over 10,000 square feet) and constructs URLs for properties and listings. The final result provides a comprehensive view of property status changes, including creation and modification dates, property details, and statuses, and is ordered by the most recent modification dates and addresses.
